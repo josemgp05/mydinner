@@ -1,0 +1,138 @@
+
+#vaadin-vertical-layout{
+  position: absolute;float:left;
+  left:14%;
+  padding-left: 0%;
+  padding-top: 0px;
+  top:0px;
+  z-index: 100;
+  padding-left: 2%;
+  width: 83%;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+}
+#vaadin-vertical-layout h2{
+  color:black;
+}
+#vaadin-horizontal-layout{
+  width: 100%;
+  height: auto;
+  position: relative;
+  color:black;
+}
+.block {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  background-color: transparent;
+  margin-bottom:35px;
+}
+.items{
+  background:#f1f3f7;
+  margin:20px;
+  width:220px;
+  height:300px;
+  position:relative;
+  border-radius:10px;
+  color:black;
+}
+
+.items:hover{
+  background:#f1f3f7;
+  color:white;
+  box-shadow: 0px 0px 20px 1px #f1f3f7;
+}
+.items img{
+  position: absolute;
+  width: 80%;
+  left:8.5%;
+  top:15px;
+  filter:saturate(1.5);
+
+}
+.items h4{
+    position: absolute;
+    top:61%;text-align: center;
+    width: 100%;
+    color:black;
+
+}
+.items i{
+    position: absolute;
+    top:76%;text-align: center;
+    width: 100%;
+    font-size: 13px;
+    color:black;
+
+}
+.items h5{
+    position: absolute;
+    top:80%;text-align: center;
+    width: 100%;
+    color:black;
+}
+#current-in{
+  position:absolute;
+  right:0;
+  height: 100%;
+  top:0;
+  width: 18%;
+  background-image: url("../../assets/bg1.jpg");
+  background-size: 190% 100%;
+  background-position: left;
+  z-index: 100;
+  font-family: 'Open Sans', sans-serif;
+}
+#current-in #filter{
+  position:absolute;
+  right:0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left:1px solid #f1f3f7;
+}
+#current-in h2{
+  position: absolute;
+  top:5%;
+  left:8%;
+  color:black;
+}
+#current-in-container{
+  position: relative;
+  top:24%;
+  width: 92%;
+  left:4%;
+  border-radius: 10px;
+  height: 70px;
+  background: #f1f3f7;
+
+}
+#current-in-container img{
+  position: absolute;
+  top:17%;
+  left:3%;
+  width: 20%;
+}
+#current-in-container h4{
+  position: absolute;
+  top:3%;
+  left: 25%;
+  color:black;
+  font-size: 13px;
+}
+#current-in h5{
+  position: absolute;
+  top:14%;
+  left: 8%;
+  color:black;
+  font-size: 13px;
+}
+#current-in h3{
+  position: absolute;
+  top:80%;
+  left: 8%;
+  color:black;
+  font-size: 20px;
+}

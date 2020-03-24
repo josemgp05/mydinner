@@ -1,0 +1,43 @@
+--lumo-primary-color: red
+#sideMenu{
+  position: fixed;
+  width:13%;
+  background: #f1f3f7;
+  height: 100%;
+  padding-top: 10px;
+ z-index: 1000;
+}
+
+vaadin-tab{
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+#sideMenu h1, vaadin-button{
+
+  position: relative;
+  width: 10%;
+  left:2%;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  text-align: center;
+  align-self:baseline;
+  color:black;
+}
+vaadin-button{
+
+  position: relative;
+  width: 10%;
+  left:2%;
+  height: auto;
+  margin-top: 100px;
+  font-size: 13px;
+  padding-top:10px;
+  padding-bottom:10px;
+  box-shadow: 0px 8px 15px -5px rgba(255, 23, 72, 0.6);
+  cursor: pointer;
+  color:white;
+
+}

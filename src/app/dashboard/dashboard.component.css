@@ -1,0 +1,102 @@
+
+
+#vaadin-vertical-layout{
+  position: absolute;
+  left:14%;
+  padding-left: 0%;
+  padding-top: 0px;
+  top:0px;
+  z-index: 100;
+  padding-left: 2%;
+  width: 83%;
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+}
+#vaadin-vertical-layout h2{
+  color:black;
+}
+#vaadin-horizontal-layout{
+  width: 100%;
+  height: auto;
+  position: relative;
+  color:black;
+}
+.block {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 80%;
+  height: auto;
+  margin-bottom:35px;
+}
+.items{
+  background:#f1f3f7;
+  margin:20px;
+  width:220px;
+  height:300px;
+  position:relative;
+  float: left;
+  border-radius:10px;
+  color:black;
+}
+
+.items:hover{
+  background:#f1f3f7;
+  color:white;
+  box-shadow: 0px 0px 20px 1px #f1f3f7;
+}
+.items img{
+  position: absolute;
+  width: 80%;
+  left:8.5%;
+  top:15px;
+  filter:saturate(1.5);
+
+}
+.items h4{
+    position: absolute;
+    top:5%;text-align: left;
+    width: 100%;
+    color:black;
+    left:10%;
+
+}
+
+.items h5{
+    position: relative;
+    float:left;
+    width: 100%;
+    left:10%;
+    top:30%;
+    text-align: left;
+    color:black;
+    margin: 5px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+#current-in{
+  position:absolute;
+  right:0;
+  height: 100%;
+  top:0;
+  width: 18%;
+  background-image: url("../../assets/bg1.jpg");
+  background-size: 190% 100%;
+  background-position: left;
+  z-index: 100;
+  font-family: 'Open Sans', sans-serif;
+}
+#current-in #filter{
+  position:absolute;
+  right:0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left:1px solid #f1f3f7;
+}
+#current-in h2{
+  position: absolute;
+  top:5%;
+  left:8%;
+  color:black;
+}

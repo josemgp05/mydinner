@@ -1,0 +1,70 @@
+
+<div id="vaadin-vertical-layout">
+  <div class="block">
+
+    <h2>
+      <iron-icon icon="vaadin:vaadin:arrow-left" slot="prefix" routerLink="/dashboard"></iron-icon>
+      &nbsp;Nueva orden
+    </h2>
+
+  </div>
+  <div class="block">
+
+    <select placeholder="Disponibles" label="Mesas">
+
+          <option>Option one</option>
+          <option>Option two</option>
+    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <select placeholder="Cantidad" label="Personas">
+          <option>Option one</option>
+          <option>Option two</option>
+    </select>
+
+  </div>
+
+  <vaadin-tabs style="text-align:left;left:20px;width:90%;" theme="left">
+    <vaadin-tab style="padding-left:20px;padding-right:20px;"><img src="../../assets/salad-menu.png" style="width:30px;height:30px;">&nbsp;&nbsp;Almuerzo</vaadin-tab>
+    <vaadin-tab style="padding-left:20px;padding-right:20px;"><img src="../../assets/soup.png" style="width:30px;height:30px;">&nbsp;&nbsp;Desayuno</vaadin-tab>
+    <vaadin-tab style="padding-left:20px;padding-right:20px;"><img src="../../assets/pasta-menu.png" style="width:30px;height:30px;">&nbsp;&nbsp;Comida</vaadin-tab>
+    <vaadin-tab style="padding-left:20px;padding-right:20px;"><img src="../../assets/salad-menu.png" style="width:30px;height:30px;">&nbsp;&nbsp;Cena</vaadin-tab>
+    <vaadin-tab style="padding-left:20px;padding-right:20px;"><img src="../../assets/soup.png" style="width:30px;height:30px;">&nbsp;&nbsp;Entremés</vaadin-tab>
+
+
+  </vaadin-tabs><br>
+  <div class="block" style="margin-left:30px;">
+
+        <div class="items">
+          <img src="../../assets/d1.png" id="dish">
+          <h4>Nombre Platillo</h4>
+          <i>Descripción del platillo</i>
+          <h5>$30.00</h5>
+        </div>
+        <div class="items">
+          <img src="../../assets/d1.png" id="dish">
+          <h4>Nombre Platillo</h4>
+          <i>Descripción del platillo</i>
+          <h5>$30.00</h5>
+        </div>
+        <div class="items">
+          <img src="../../assets/d1.png" id="dish">
+          <h4>Nombre Platillo</h4>
+          <i>Descripción del platillo</i>
+          <h5>$30.00</h5>
+        </div>
+
+  </div>
+</div>
+
+<div id="current-in">
+  <div id="filter"></div>
+  <h2>Mesa 4</h2>
+  <h5>Num items/platos: 8</h5>
+  <div id="current-in-container">
+    <img src="../../assets/d1.png" id="dish">
+    <h4>$80.00 Nombre Platillo<br>Cant. 3</h4>
+
+  </div>
+  <h3>Total: $500.00</h3>
+
+</div>
